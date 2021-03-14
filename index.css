@@ -17,11 +17,16 @@
   .head-bar{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     background-color: rgb(85, 66, 53);
     color: white;
-    margin-top: 0;
-    padding: 0 5px 5px 5px;
+    padding: 2px 0;
     border-radius: 0 0 10px 10px;
+  }
+  .head-bar div{
+    margin: 0 10px;
   }
   .index-body__welcome{
     margin: 80px 0 20px 0;
@@ -41,6 +46,14 @@
     opacity: 0.7;
     padding: 20px;
   }
+  .index-body__typein:focus{
+    background-color: rgb(255, 231, 151);
+  }
+  .index-body__typein:hover{
+    background-color: rgb(255, 231, 151);
+  }
+  
+  
   .index-body__btn{
     border: none;
     border-radius: 20px 5px;
@@ -52,10 +65,22 @@
     font-size: 15px;
     font-weight: 600;
   }
+  .index-body__btn:hover{
+    background-color: rgb(126, 97, 79);
+  }
+  .index-body__btn:active{
+    transform: translateY(3px);
+  }
   .index-body__anchor{
     margin-top: 40px;
     margin-bottom: 0;
     color: rgb(85, 66, 53);
+  }
+  .index-body__anchor:hober{
+    color: rgb(126, 97, 79);
+  }
+  .index-body__anchor:active{
+    color: rgb(126, 97, 79);
   }
   .index-body__imgfrom{
     margin: 0;

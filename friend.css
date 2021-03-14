@@ -1,0 +1,80 @@
+.topbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+.topbar i{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.friend-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    margin: 20px 0;
+    background-color: rgb(240, 240, 240);
+    color: rgb(155, 155, 155);
+    opacity: 0.7;
+    padding: 10px 0;
+}
+.friend-display span{
+    margin: 0 20px;
+}
+
+/* --------------------------*/
+.friend-pro{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+}
+.friend-pro> span{
+    position: absolute;
+    right: 0px;
+    font-size: 12px;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    color: rgb(136, 136, 136);
+    padding: 0 3px;
+}
+.fa-play-circle{
+    color: yellowgreen;
+}
+
+.friend-info{
+    display: flex;
+    flex-direction: column;
+}
+.friend-pro img{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.friend-info__name{
+    font-weight: 600;
+}
+.friend-info__mesage{
+    font-size: 15px;
+    color:rgb(155, 155, 155);
+}
+.friend-pro__judith img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px
+}
+.friend-info__name__judith{
+    font-size: 25px;
+}
+.friend-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-top: 1px solid gainsboro;
+    color: gainsboro;
+}
