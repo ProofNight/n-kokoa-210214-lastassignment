@@ -50,14 +50,15 @@
     margin: 0 10px;
     font-size: 20px;
 }
-.topbar i:nth-child(1):hover{
+.topbar>i:nth-child(1):hover{
     animation: search-ani 1s linear forwards;
 }
 .topbar i:nth-child(2):hover{
     animation: music-ani 1s linear;
 }
-.topbar i:nth-child(3):hover{
-    animation: cog-ani 3s linear infinite;
+
+.fa-cog{
+    color: black;
 }
 
 

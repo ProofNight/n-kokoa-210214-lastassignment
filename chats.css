@@ -17,7 +17,7 @@
     margin: 0 10px;
     font-size: 20px;
 }
-.chats-topbar i:nth-child(1):hover{
+.chats-topbar>i:nth-child(1):hover{
     animation: search-ani 1s linear forwards;
 }
 .chats-topbar i:nth-child(2):hover{
@@ -26,9 +26,7 @@
 .chats-topbar i:nth-child(3):hover{
     animation: music-ani 1s linear;
 }
-.chats-topbar i:nth-child(4):hover{
-    animation: cog-ani 3s linear infinite;
-}
+
 
 .nabigation-bar__chats a{
     color:rgb(175, 160, 147);
@@ -108,4 +106,40 @@
     height: 20px;
     border-radius: 50%;
     margin-top: 5px;
+}
+
+/* -----------------------------------*/
+@keyframes nab-bar__ani{
+    0%{
+        transform: translate(0);
+        transform: scaleX(1.1);
+        transform: scaleY(0.9);
+    }
+    25%{
+        transform: translateY(-1.5px);
+    }
+    50%{
+        transform: translateY(-3px) scaleY(1.1) scaleX(0.9);
+    }
+    75%{
+        transform: translateY(-1.5px);
+    }
+    100%{
+        transform: translate(0);
+        transform: scaleX(1.1);
+        transform: scaleY(0.9);
+    }
+}
+.nab-bar__rel{
+    position: relative;
+    
+}
+.nab-bar__num{
+    position: absolute;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    top: -7px;
+    right: -7px;
+    animation: nab-bar__ani 1s ease-in-out infinite;
 }
