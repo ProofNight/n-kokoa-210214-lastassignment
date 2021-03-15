@@ -1,0 +1,87 @@
+.nabigation-bar__find a{
+    color:rgb(175, 160, 147);
+}
+.nabigation-bar__find a:nth-child(3){
+    color: rgb(66, 48, 36);
+}
+.find-topbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.find-topbar i{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.find-topbar__search{
+    display: flex;
+    align-items: center;
+}
+.find-topbar__search div{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 228, 207);
+    padding: 5px;
+    border-radius: 20px;
+    color:rgb(175, 160, 147);
+}
+.find-topbar__search input{
+    display: flex;
+    border: none;
+    background: none;
+    width: 300px;
+}
+
+/* ------------- FIND LIST -----------------*/
+.find-li{
+    display: flex;
+    justify-content:space-between;
+    margin: 60px 40px;
+}
+.find-li>div{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    color: var(--main-color);
+}
+.find-li i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+
+/* Open Chats */
+.find-openchat{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.find-openchat img{
+    width: 180px;
+    height: 100px;
+    border-radius: 20px;
+}
+.find-openchat__info{
+    display: flex;
+    flex-direction: column;
+}
+.find-openchat__info a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.find-openchat__info span:nth-child(2){
+    margin-top: 20px;
+    font-size: 15px;
+    opacity: 0.7;
+   
+}
+.find-openchat__info span:nth-child(3){
+    font-size: 15px;
+    opacity: 0.7;
+    color: yellowgreen;
+}

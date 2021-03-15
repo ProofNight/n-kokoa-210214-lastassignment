@@ -1,6 +1,12 @@
 @import "index.css";
 @import "friend.css";
+@import "chats.css";
+@import "find.css";
 
 body{
   margin: 0;
 }
+:root{
+    --main-color:rgb(85, 66, 53);
+}
+

@@ -1,3 +1,8 @@
+.friend{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
 .topbar{
     display: flex;
     justify-content:space-between;
@@ -10,6 +15,26 @@
     margin: 0 10px;
     font-size: 20px;
 }
+.nabigation-bar{
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: rgb(240, 240, 240);
+}
+.nabigation-bar__friend a{
+    color:rgb(175, 160, 147);
+}
+.nabigation-bar__friend a:first-child{
+    color: rgb(66, 48, 36);
+}
+/* -----------------------------------------*/
 .friend-display{
     display: flex;
     justify-content: center;
@@ -75,6 +100,10 @@
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
-    border-top: 1px solid gainsboro;
-    color: gainsboro;
+    border-top: 1px solid rgb(163, 163, 163);
+    color: rgb(163, 163, 163);
+    font-weight:lighter;
+}
+.suspect-li{
+    margin-bottom: 50px;
 }
