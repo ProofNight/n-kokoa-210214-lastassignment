@@ -13,12 +13,12 @@
     font-weight: 600;
 }
 .find-topbar i{
-    margin: 0 10px;
     font-size: 20px;
 }
 .find-topbar__search{
     display: flex;
     align-items: center;
+    margin-right: 5px;
 }
 .find-topbar__search div{
     display: flex;
@@ -32,7 +32,7 @@
     display: flex;
     border: none;
     background: none;
-    width: 300px;
+    width: 60vw;
 }
 
 .fa-cog:hover{

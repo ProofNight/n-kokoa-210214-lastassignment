@@ -127,7 +127,7 @@
 }
 .chat-input input{
     position: relative;
-    width: 40vh;
+    width: 30vh;
     padding: 5px 30px;
     border: none;
 }
@@ -138,3 +138,4 @@
 .chat-last{
     margin-bottom: 60px;
 }
+
