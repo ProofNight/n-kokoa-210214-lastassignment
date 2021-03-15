@@ -1,0 +1,37 @@
+.nabigation-bar__more a{
+    color:rgb(175, 160, 147);
+}
+.nabigation-bar__more a:last-child{
+    color: rgb(66, 48, 36);
+}
+.more-pro__judith{
+    position: relative;
+}
+.fa-comment-alt{
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(175, 160, 147);
+}
+.more-li{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 40px;
+}
+.more-li>div{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    color: var(--main-color);
+    width: 400px;
+}
+.more-li i{
+    font-size: 40px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.more-li i:hover{
+    color: yellowgreen;
+    font-size: 50px;
+}
