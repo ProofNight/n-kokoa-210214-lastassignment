@@ -39,6 +39,10 @@
 .chats-li{
     margin-bottom: 60px;
 }
+.chats-li a{
+    text-decoration: none;
+    color: var(--main-color);
+}
 .chats-pro{
     display: flex;
     margin: 20px;

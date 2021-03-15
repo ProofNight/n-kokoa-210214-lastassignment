@@ -1,6 +1,5 @@
 .setting-head{
     padding: 0 10px;
-
     position: fixed;
     top: 40px;
     width: 100%;
@@ -10,8 +9,11 @@
     font-size: 20px;
     font-weight: 600;
 }
+.setting-fa-angle-left{
+    color: rgb(58, 45, 37);
+}
 .setting{
-    height: 1000vh;
+    height: 100vh;
 }
 .setting-body{
     margin: 100px 10px;

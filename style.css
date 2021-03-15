@@ -5,10 +5,16 @@
 @import "more.css";
 @import "setting.css";
 
-body{
-  margin: 0;
-}
+@import "chat.css";
+@import "bigscreen.css";
+@import "loading_ani.css";
+
+
 :root{
     --main-color:rgb(85, 66, 53);
 }
+body{
+    margin: 0;
+    color: rgb(58, 45, 37);
+  }
 
